@@ -5,7 +5,10 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-
-
 // DOCUMENT READY FUNCTION BELOW
 
+$( document ).ready(function() {
+    $("button").click(function() {
+        $("#userChoice").text($("#input").val());
+    });
+});
